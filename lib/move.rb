@@ -12,6 +12,6 @@ def input_to_index(input) #Defined method to take in argrument (input / string f
 end
 
 board = [" ", " ", " "]
-def move(board, index, value = "X") #inputs three arguments into move method, board array, index converted from the input from the user, and the value that will go into the index of the array
-  board[index] = value #the index position of the board array will be equal to the value set forth by the player
+def move(board, index, current_player = "X") #inputs three arguments into move method, board array, index converted from the input from the user, and the value that will go into the index of the array
+  board[index] = current_player #the index position of the board array will be equal to the value set forth by the player
 end
